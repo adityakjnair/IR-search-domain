@@ -12,15 +12,12 @@ import javax.persistence.Embeddable;
 
 /**
  *
- * @author soham
+ * @author aditya
  */
 @Embeddable
 public class TokenPK implements Serializable {
 
-
-	private static final long serialVersionUID = 1L;
-	
-	@Basic(optional = false)
+    @Basic(optional = false)
     @Column(name = "token_name")
     private String tokenName;
     @Basic(optional = false)
